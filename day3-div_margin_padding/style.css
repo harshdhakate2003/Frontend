@@ -1,0 +1,57 @@
+#alpha{
+    color: aqua;
+    background-color: blueviolet;
+    border: 3px solid red;
+    height: 300px;
+    width: 300px;
+}
+#box{
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+}
+#mobile{
+    height: 100%;
+    width: 100%;
+}
+#container{
+    border: 1px solid red;
+    width: 50%;
+    height: 500px;
+}
+#card{
+    border: 1px solid black;
+    height: 50%;
+    width: 50%;
+}
+
+#amitabh{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+#sharukh{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    margin-left: 25px;
+}
+#salman{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+#amir{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
