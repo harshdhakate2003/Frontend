@@ -1,0 +1,41 @@
+#parent{
+    height: 500px;
+    width: 100%;
+    font-size: 25px;
+    border: 3px solid blueviolet;
+
+    display: flex;
+
+    justify-content: center;
+    justify-content: start;
+    justify-content: end;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    justify-content: space-between;
+
+    align-items: start;
+    align-items: end;
+    align-items: center;
+
+    flex-direction: row;
+    flex-direction: column;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+
+
+
+}
+
+.child{
+    height: 100px;
+    width: 100px;
+    border: 1px solid rgb(111, 17, 103);
+    background-color: aqua;
+}
+
+.alpha{
+    height: 100px;
+    width: 100px;
+    border: 1px solid rgb(111, 17, 103);
+    background-color: rgb(208, 213, 197);
+}
