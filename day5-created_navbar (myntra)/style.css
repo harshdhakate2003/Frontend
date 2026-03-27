@@ -1,0 +1,67 @@
+#navbar{
+    /* border: 2px solid black; */
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#imgDiv{
+    /* border: 2px solid red; */
+    height: 50px;
+    width: 60px;
+}
+#logo{
+    height: 100%;
+}
+#linksDiv{
+    /* border: 2px solid red; */
+    height: 30px;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links{
+    color: black;
+    font-size: 13px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+#new{
+    color: #f6a8b9;
+}
+#sDiv{
+    /* border: 2px solid red; */
+    height: 40px;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+#inpbox{
+    width: 85%;
+    background-color: #f5f5f5;
+    border: none;
+    outline: none;
+}
+#iconDiv{
+    /* border: 2px solid red; */
+    height: 40px;
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.abc{
+    /* border: 2px solid black; */
+    text-align: center;
+    line-height: 0px;
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+}
