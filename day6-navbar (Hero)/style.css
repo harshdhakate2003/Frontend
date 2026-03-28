@@ -1,0 +1,49 @@
+#navbar{
+    /* border: 2px solid black; */
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+} 
+#img{
+    /* border: 2px solid red; */
+    height: 75%;
+    width: 10%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#logo{
+    height: 32px;
+}
+#data{
+    /* border: 2px solid red; */
+    height: 75%;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+#icons{
+    /* border: 2px solid red; */
+    height: 75%;
+    width: 8%;
+    display: flex;
+    justify-content: space-around;
+}
+.abc{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+}
