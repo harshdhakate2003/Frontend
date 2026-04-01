@@ -1,0 +1,19 @@
+#box{
+    border: 2px solid black;
+    width: 640px;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(8,0fr);
+
+}
+.white{
+    background-color: white;
+    height: 80px;
+    width: 80px;
+}
+.black{
+    background-color: black;
+    height: 80px;
+    width: 80px;
+}
