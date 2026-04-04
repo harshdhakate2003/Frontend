@@ -1,0 +1,117 @@
+#container{
+    /* border: 2px solid purple; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: auto;
+    display: grid;
+    grid-template-columns: 40px 120px 150px 60px 90px 90px 150px 60px 150px 60px 70px 50px  ;
+    justify-content: center;
+}
+.row1{
+    border: 1px solid black;
+    height: 50px;
+    background-color: rgb(204, 153, 254);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.monday{
+    border: 1px solid black;
+    height: 90px;
+    /* background-color: rgb(204, 153, 254); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#time{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 11;
+    grid-column-end: 13;
+}
+#break1{
+    border: 1px solid black;
+    grid-row-start: 2;
+    grid-row-end: 7;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color: rgb(166, 208, 140);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cover{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+#lunch{
+    border: 1px solid black;
+    grid-row-start: 2;
+    grid-row-end: 7;
+    grid-column-start: 8;
+    grid-column-end: 9;
+    background-color: rgb(166, 208, 140);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#break2{
+    grid-row-start: 2;
+    grid-row-end: 7;
+    grid-column-start: 10;
+    grid-column-end: 11;
+    border: 1px solid black;
+    background-color: rgb(166, 208, 140);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#art{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 11;
+    grid-column-end: 13;
+}
+#hre{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 11;
+    grid-column-end: 13;
+}
+#pe{
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 11;
+    grid-column-end: 13;
+}
+.Guided{
+    background-color: red;
+}
+.English{
+    background-color: yellow;
+}
+.Assembly{
+    background-color: orange;
+}
+.Maths{
+    background-color: rgb(122, 175, 193);
+}
+.Spelling{
+    background-color: rgb(179, 198, 231);
+}
+.day{
+    background-color:rgb(204, 153, 254);
+}
+.pe{
+    background-color: rgb(141, 171, 217);
+}
+.Science{
+    background-color: peru;
+}
+.Art{
+    background-color: rgb(162, 237, 162);
+}
+.HW{
+    background-color: yellow;
+}
