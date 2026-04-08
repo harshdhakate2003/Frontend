@@ -1,0 +1,27 @@
+/* #alpha h1
+{
+    color: aqua;
+} */
+
+/* #alpha > h1
+{
+    color: blueviolet;
+} */
+
+#alpha > div > div > div > h1
+{
+    color: blueviolet;
+}
+
+h1 + h2 
+{
+    background-color: brown;
+}
+
+#harsh + h2{
+    background-color: blanchedalmond;
+}
+
+#harsh ~ h1{
+    background-color: blue;
+}
